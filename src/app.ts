@@ -24,7 +24,7 @@ app.use(json());
 logger.info('Configured body parser plugin');
 
 app.use(loggingHandler);
-logger.info('Initializing request logger');
+logger.info('Initialized request logger');
 
 app.use('/', routes);
 
