@@ -1,6 +1,7 @@
 import * as dotenv from 'dotenv';
-import { getLogger, initDatabase } from './configs';
 dotenv.config();
+
+import { getLogger, initDatabase } from './configs';
 const logger = getLogger('Application');
 
 logger.info(`Start server with profile: ${process.env.NODE_ENV}`)
