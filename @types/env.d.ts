@@ -5,6 +5,7 @@ declare global {
       readonly PORT: number;
       readonly SERVICE_NAME: string;
       readonly LOG_LEVEL: string;
+      readonly MONGO_URI: string;
     }
   }
 }
