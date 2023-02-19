@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { SettingZodSchema } from "../zods/setting.zod";
+import { SettingZodSchema } from "../zods";
 
 export const UpdateSettingSchema = SettingZodSchema.pick({ key: true, value: true });
 
