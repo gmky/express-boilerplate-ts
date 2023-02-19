@@ -4,3 +4,7 @@ export * from './not-found.error';
 export * from './bad-request.error';
 export * from './unauthorized.error';
 export * from './forbidden.error';
+export * from './username-existed.error';
+export * from './user-not-found.error';
+export * from './email-existed.error';
+export * from './validation.error';
